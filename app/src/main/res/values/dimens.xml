@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Adjust the value as needed -->
+    <dimen name="dimens_8dp">8dp</dimen>
+    <dimen name="dimens_60dp">60dp</dimen>
+    <dimen name="dimens_16dp">16dp</dimen>
+    <dimen name="move_distance">20dp</dimen>
+</resources>

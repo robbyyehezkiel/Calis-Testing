@@ -1,0 +1,91 @@
+<!-- fragment_base_letter.xml -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.lesson.letter.fragment.BaseLetterFragment">
+
+    <ImageView
+        android:id="@+id/sound"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/button_custom_primary_border"
+        android:contentDescription="@string/description"
+        android:padding="8dp"
+        android:src="@drawable/icon_volume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_custom_primary_border"
+        android:padding="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/letterQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="224sp"
+            tools:text="A" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/arrowLeft"
+        style="@style/ButtonPrimary"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="@dimen/dimens_8dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/icon_backward"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintStart_toStartOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+    <ImageView
+        android:id="@+id/arrowRight"
+        style="@style/ButtonPrimary"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="@dimen/dimens_8dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/icon_forward"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/autoTextButton"
+        style="@style/ButtonWhiteBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/icon_forward"
+        android:text="@string/button_text_automatic"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/uppercaseLowercaseButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/uppercaseLowercaseButton"
+        style="@style/ButtonWhiteBorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/button_text_uppercase"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/autoTextButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

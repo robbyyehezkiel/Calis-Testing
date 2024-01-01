@@ -1,0 +1,30 @@
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Animation view -->
+    <ImageView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Letter display area -->
+    <TextView
+        android:id="@+id/letterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animationView"
+        android:gravity="center"
+        android:text="A"
+        android:textSize="48sp" />
+
+    <!-- Interactive writing area -->
+    <EditText
+        android:id="@+id/writingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/letterTextView"
+        android:hint="Write the letter here"
+        android:textSize="24sp" />
+</RelativeLayout>

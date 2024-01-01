@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- App Info -->
+    <string name="app_name">CALIS</string>
+    <string name="sub_app_name">Aplikasi Belajar Baca Tulis Hitung</string>
+
+    <!-- Add User -->
+    <string name="add_data">Tambah Data</string>
+    <string name="const_text_name">Nama</string>
+    <string name="const_text_age">Umur</string>
+
+    <string name="category_cannot_be_null">Category cannot be null</string>
+
+    <!-- Settings -->
+    <string name="settings">Menu Settings</string>
+    <string name="add_category">Add Category</string>
+    <string name="add_another_category">Add Another Category</string>
+    <string name="add_question">Add Question</string>
+    <string name="backward">Backward</string>
+    <string name="score_default">0</string>
+    <string name="quiz_default">!</string>
+
+    <!-- Game Over -->
+    <string name="game_over">Game Over</string>
+    <string name="ok">OK</string>
+    <string name="your_score">Your score: %d</string>
+    <string name="tts_language_not_available">Text-to-Speech language is not available.</string>
+    <string name="tts_init_failed">Text-to-Speech initialization failed with status: %d</string>
+
+    <!-- Tools -->
+    <string name="tools_save">Simpan</string>
+    <string name="tools_start">Bermain</string>
+
+    <!-- Categories -->
+    <string name="BACA">BACA</string>
+    <string name="membaca">MEMBACA</string>
+    <string name="menulis">MENULIS</string>
+    <string name="menghitung">MENGHITUNG</string>
+    <string name="progress">PROGRES</string>
+    <string name="pengayaan">PENGAYAAN</string>
+
+    <!-- Actions -->
+    <string name="sign_out">LOGOUT</string>
+    <string name="delete">HAPUS PROFILE ANAK</string>
+
+    <!-- Descriptions -->
+    <string name="description">Description</string>
+    <string name="tools_switch_account">Ganti Profile</string>
+
+    <!-- Login -->
+    <string name="with_sign_in">LOGIN DENGAN GOOGLE</string>
+    <string name="without_sign_in">MASUK TANPA LOGIN</string>
+    <string name="login_note">Penggunaan aplikasi ini diatur oleh Persyaratan Layanan dan Kebijakan Privasi !</string>
+
+    <!-- Main Menu Card -->
+    <string-array name="data_name">
+        <item>@string/membaca</item>
+        <item>@string/menghitung</item>
+        <item>@string/menulis</item>
+        <item>@string/progress</item>
+    </string-array>
+    <integer-array name="data_photo">
+        <item>@drawable/nav_read</item>
+        <item>@drawable/nav_calculate</item>
+        <item>@drawable/nav_write</item>
+        <item>@drawable/nav_report</item>
+    </integer-array>
+
+    <!-- Add User -->
+    <string name="subcategory_hint">Sub Category</string>
+    <string name="select_category">Select a category</string>
+    <string name="select_subcategory">Select a subcategory</string>
+    <string name="blank_fragment">Blank Fragment</string>
+
+    <string name="enter_category">Enter Category</string>
+
+    <!-- Quiz Questions -->
+    <string name="question">Enter Question</string>
+    <string name="answer">Answer</string>
+    <string name="option_a">Option A</string>
+    <string name="option_b">Option B</string>
+    <string name="option_c">Option C</string>
+    <string name="option_d">Option D</string>
+    <string name="home">Home</string>
+
+
+    <string name="vocals">Huruf \nVocal</string>
+    <string name="alphabet">Huruf \nAlphabet</string>
+    <string name="consonant">Huruf \nKonsonan</string>
+    <string name="letter_a">A</string>
+    <string name="letter_i">I</string>
+    <string name="letter_u">U</string>
+    <string name="letter_e">E</string>
+    <string name="letter_o">O</string>
+
+    <string name="letter_b">B</string>
+    <string name="letter_c">C</string>
+    <string name="letter_d">D</string>
+    <string name="letter_f">F</string>
+    <string name="choose_category">Choose category and subcategory first!</string>
+
+    <!-- Success Messages -->
+    <string name="stored_successful">Stored data successful!</string>
+
+    <string name="auto_text">Auto Text</string>
+    <string name="stop_auto_text">Stop Auto Text</string>
+    <string name="button_text_uppercase">Besar</string>
+    <string name="button_text_lowercase">Kecil</string>
+    <string name="button_text_automatic">Auto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

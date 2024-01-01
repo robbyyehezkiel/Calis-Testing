@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1051138857314",
+    "project_id": "calis-application-2a0d9",
+    "storage_bucket": "calis-application-2a0d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1051138857314:android:9795ee5742d7fa8f62f43b",
+        "android_client_info": {
+          "package_name": "com.robbyyehezkiel.calisapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1051138857314-tfrupfq17jm3mi4gsc69ter9rj8ce3tv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robbyyehezkiel.calisapplication",
+            "certificate_hash": "b02ed844aa09ebd5ff5404c187004bc9736b1e3e"
+          }
+        },
+        {
+          "client_id": "1051138857314-gi032ur41b1vq0rtccq3iu4t1a2iatvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHWKx33vGlr7wYb1fTYs1b5pbYV_lfm4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1051138857314-gi032ur41b1vq0rtccq3iu4t1a2iatvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

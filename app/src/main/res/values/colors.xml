@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="firebase_amber">#FFA000</color>
+    <color name="firebase_orange">#F57C00</color>
+    <color name="firebase_blue">#039BE5</color>
+    <color name="firebase_navy">#2C384A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_primary">#2DB0D2</color>
+    <color name="color_secondary">#267F96</color>
+    <color name="grey">#7B7B7B</color>
+    <color name="color_danger">#DC3545</color>
+    <color name="palette9">#B11111</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#DC3545</color>
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.auth.lesson.letter.LetterHomeActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnHome"
+        style="@style/ButtonPrimary"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  Alphabet  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navigateAlphabet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button_custom_primary_border"
+        android:padding="@dimen/dimens_16dp"
+        app:layout_constraintDimensionRatio="3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHome">
+
+        <TextView
+            android:id="@+id/titleAlphabet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-4"
+            android:text="@string/alphabet"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect_disabled"
+            android:paddingHorizontal="@dimen/dimens_16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/alphabet1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:rotation="4"
+                android:text="@string/letter_a"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/alphabet2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginHorizontal="12dp"
+                android:rotation="-4"
+                android:text="@string/letter_b"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/alphabet3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:rotation="-4"
+                android:text="@string/letter_c"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  Vocal  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navigateVocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_16dp"
+        android:background="@drawable/button_custom_primary_border"
+        android:padding="@dimen/dimens_16dp"
+        app:layout_constraintDimensionRatio="3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigateAlphabet">
+
+        <TextView
+            android:id="@+id/titleVocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-4"
+            android:text="@string/vocals"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect_disabled"
+            android:paddingHorizontal="@dimen/dimens_16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/vocal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:rotation="4"
+                android:text="@string/letter_a"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/vocal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginHorizontal="4dp"
+                android:rotation="-4"
+                android:text="@string/letter_i"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/vocal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:rotation="-4"
+                android:text="@string/letter_u"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/vocal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginHorizontal="4dp"
+                android:rotation="-4"
+                android:text="@string/letter_e"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/vocal5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:rotation="-4"
+                android:text="@string/letter_o"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--  Consonant  -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/navigateConsonant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimens_16dp"
+        android:background="@drawable/button_custom_primary_border"
+        android:padding="@dimen/dimens_16dp"
+        app:layout_constraintDimensionRatio="3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigateVocal">
+
+        <TextView
+            android:id="@+id/titleConsonant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="-4"
+            android:text="@string/consonant"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_effect_disabled"
+            android:paddingHorizontal="@dimen/dimens_16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/consonant1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="12dp"
+                android:rotation="4"
+                android:text="@string/letter_b"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/consonant2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:rotation="-4"
+                android:text="@string/letter_c"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/consonant3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:rotation="-4"
+                android:text="@string/letter_d"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+            <TextView
+                android:id="@+id/consonant4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:rotation="-4"
+                android:text="@string/letter_f"
+                android:textColor="@color/white"
+                android:textSize="64sp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
